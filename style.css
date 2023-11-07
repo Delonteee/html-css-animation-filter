@@ -67,3 +67,91 @@
     width: 60px;
     height: 20px;
 }
+
+/**    1° ESERCIZIO    **/
+
+.ex-1-square {
+    transition: 5s;
+}
+.ex-1-square:hover {
+    background: red;
+}
+
+/**    2° ESERCIZIO    **/
+
+.ex-2-square {
+    transition: 5s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/**    3° ESERCIZIO    **/
+
+.ex-3-square {
+    transition: 3s;
+}
+.ex-3-square:hover {
+    border-radius: 50px;
+}
+
+/**    4° ESERCIZIO    **/
+
+.ex-4-square {
+    
+}
+
+/**    5° ESERCIZIO    **/
+
+.ex-5-square {
+    
+}
+
+/**    6° ESERCIZIO    **/
+
+.ex-6-square {
+    
+}
+
+/**    7° ESERCIZIO    **/
+
+.ex-7-square {
+    
+}
+
+/**    8° ESERCIZIO    **/
+
+.ex-8-square {
+    
+}
+
+/**    9° ESERCIZIO    **/
+
+.ex-9-square {
+    
+}
+
+/**    10° ESERCIZIO   **/
+
+.ex-10-square {
+    
+}
+
+/**    11° ESERCIZIO   **/
+
+.ex-11-square {
+    
+}
+
+/**    12° ESERCIZIO   **/
+
+.ex-12-square {
+    
+}
+
+/**    13° ESERCIZIO   **/
+
+.ex-13-square {
+    
+}
