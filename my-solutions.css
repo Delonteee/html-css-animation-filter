@@ -197,6 +197,64 @@
 
 /**    13° ESERCIZIO   **/
 
-.ex-13-button:  {
-    
+.ex-13-button:hover .ex-13-top-white {
+    animation: move-top-round 3s;    
+}
+
+@keyframes move-top-round {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
+    }
+    80% {
+        left: calc(0% - 30px);
+        top: calc(100% - 10px);
+    }
+    95% {
+        left: calc(0% - 30px);
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: move-bottom-round 3s;    
+}
+
+@keyframes move-bottom-round {
+    0% {
+        right: 10%;
+        bottom: -10px;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: calc(100% - 10px);
+    }
+    80% {
+        right: calc(0% - 30px);
+        bottom: calc(100% - 10px);
+    }
+    95% {
+        right: calc(0% - 30px);
+        bottom: -10px;
+    }
+    100% {
+        right: 10%;
+        bottom: -10px;
+    }
 }
