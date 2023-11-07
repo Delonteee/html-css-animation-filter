@@ -122,18 +122,81 @@
 
 /**    11° ESERCIZIO   **/
 
-.ex-11-square {
-    
+.ex-11-icon:hover {
+    animation: spin-a-bit 3s linear;
+}
+
+@keyframes spin-a-bit {
+    30% {
+        transform: rotate(90deg);
+    }
+    60% {
+        transform: rotate(180deg);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 /**    12° ESERCIZIO   **/
 
-.ex-12-square {
-    
+.ex-12-button:hover .ex-12-top-white {
+    animation: move-top 1s;
+}
+
+@keyframes move-top {
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: calc(90% - 60px);
+    }
+}
+
+.ex-12-button:active .ex-12-top-white {
+    animation: go-back-top 500ms;
+}
+
+@keyframes go-back-top {
+    0% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move-bottom 1s;
+}
+
+@keyframes move-bottom {
+    0% {
+        right: 10%;
+    }
+    100% {
+        right: calc(90% - 60px);
+    }
+}
+
+.ex-12-button:active .ex-12-bottom-white {
+    animation: go-back-bottom 500ms;
+}
+
+@keyframes go-back-bottom {
+    0% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 10%;
+    }
 }
 
 /**    13° ESERCIZIO   **/
 
-.ex-13-square {
+.ex-13-button:  {
     
 }
