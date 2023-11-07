@@ -141,15 +141,28 @@
 
 /**    8° ESERCIZIO    **/
 
-.ex-8-square {
-    
+.ex-8-img {
+    transition: 3s;
 }
+
+.ex-8-img:hover {
+    border-radius: 50px;
+    filter: grayscale(1) sepia(.5);
+}
+
 
 /**    9° ESERCIZIO    **/
 
-.ex-9-square {
-    
+.ex-9-img {
+    transition: 3s;
 }
+
+.ex-8-img:hover {
+    border-radius: 50px;
+    filter: grayscale(0.5) sepia(1);
+    transform: scale(1.5);
+}
+
 
 /**    10° ESERCIZIO   **/
 
