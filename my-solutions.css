@@ -1,0 +1,139 @@
+/**    1° ESERCIZIO    **/
+
+.ex-1-square {
+    transition: 5s;
+}
+
+.ex-1-square:hover {
+    background: red;
+}
+
+/**    2° ESERCIZIO    **/
+
+.ex-2-square {
+    transition: 5s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/**    3° ESERCIZIO    **/
+
+.ex-3-square {
+    transition: 3s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50px;
+}
+
+/**    4° ESERCIZIO    **/
+
+.ex-4-square {
+    transition: 3s;
+}
+
+.ex-4-square:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+/**    5° ESERCIZIO    **/
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.8);
+}
+
+/**    6° ESERCIZIO    **/
+
+.ex-6-img {
+    transition: 1s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/**    7° ESERCIZIO    **/
+
+.ex-7-square {
+    
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.7) sepia(0.3);
+}
+
+/**    8° ESERCIZIO    **/
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 50px;
+    filter: grayscale(1) sepia(0.5);
+}
+
+/**    9° ESERCIZIO    **/
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    border-radius: 50px;
+    filter: grayscale(0.5) sepia(1);
+    transform: scale(1.5);
+}
+
+/**    10° ESERCIZIO   **/
+
+.ex-10-icon {
+    animation: spin 2000ms linear infinite;
+/** 
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+**/
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(3turn);
+    }
+/**  
+    Girare in senso antiorario:
+    
+    0% {
+        transform: rotate(3turn);
+    }
+**/
+}
+
+/**    11° ESERCIZIO   **/
+
+.ex-11-square {
+    
+}
+
+/**    12° ESERCIZIO   **/
+
+.ex-12-square {
+    
+}
+
+/**    13° ESERCIZIO   **/
+
+.ex-13-square {
+    
+}
