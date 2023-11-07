@@ -157,7 +157,7 @@
     transition: 3s;
 }
 
-.ex-8-img:hover {
+.ex-9-img:hover {
     border-radius: 50px;
     filter: grayscale(0.5) sepia(1);
     transform: scale(1.5);
